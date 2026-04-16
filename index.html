@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refugio Castelhanos</title>
+    <meta
+      name="description"
+      content="Site simples, semantico e facil de manter do Refugio Castelhanos."
+    />
+
+    <!-- Icones da aba do navegador -->
+    <link rel="icon" href="../assets/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="../assets/apple-icon.png" />
+
+    <!-- CSS unico e organizado -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Link de acessibilidade: permite pular menu -->
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteudo</a>
+
+    <!-- Cabecalho com logo e navegacao -->
+    <header class="site-header">
+      <div class="container header-wrapper">
+        <a href="#inicio" class="logo">Refugio Castelhanos</a>
+
+        <button
+          id="menu-button"
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+        >
+          Menu
+        </button>
+
+        <nav class="main-nav" aria-label="Menu principal">
+          <ul id="menu-principal" class="menu-list">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#disponibilidade">Disponibilidade</a></li>
+            <li><a href="#agendar">Agendar</a></li>
+            <li><a href="#localizacao">Localizacao</a></li>
+            <li><a class="btn btn-primary" href="#agendar">Reservar agora</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Conteudo principal -->
+    <main id="conteudo-principal">
+      <!-- Hero / Banner -->
+      <section id="inicio" class="hero" aria-labelledby="hero-titulo">
+        <div class="container hero-content">
+          <p class="tag">Praia de Castelhanos - Ilhabela</p>
+          <h1 id="hero-titulo">Seu refugio em meio a natureza</h1>
+          <p class="hero-text">
+            Hospedagem simples, tranquila e perto do mar para voce descansar de
+            verdade.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#agendar">Quero reservar</a>
+            <a class="btn btn-secondary" href="#galeria">Ver fotos</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre -->
+      <section id="sobre" class="section" aria-labelledby="sobre-titulo">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="sobre-titulo">Sobre o local</h2>
+            <p>
+              O Refugio Castelhanos fica em area cercada por mata atlantica,
+              com praia, trilhas e muito sossego. Aqui voce encontra opcoes de
+              casa de temporada e camping.
+            </p>
+          </header>
+
+          <div class="card-grid card-grid-4">
+            <article class="card">
+              <h3>Natureza preservada</h3>
+              <p>Contato direto com praia, mata e trilhas ecologicas.</p>
+            </article>
+            <article class="card">
+              <h3>Praia proxima</h3>
+              <p>Acesso facil para banho de mar e por do sol.</p>
+            </article>
+            <article class="card">
+              <h3>Camping e casa</h3>
+              <p>Voce escolhe o estilo da sua estadia.</p>
+            </article>
+            <article class="card">
+              <h3>Ambiente tranquilo</h3>
+              <p>Ideal para descansar, desacelerar e curtir a familia.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galeria de fotos -->
+      <section id="galeria" class="section section-alt" aria-labelledby="galeria-titulo">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="galeria-titulo">Galeria</h2>
+            <p>Fotos reais dos espacos.</p>
+          </header>
+
+          <ul class="gallery-grid">
+            <li>
+              <figure>
+                <img src="../assets/images/gallery-1.jpg" alt="Varanda da casa" loading="lazy" />
+                <figcaption>Varanda da casa</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="../assets/images/gallery-2.jpg" alt="Area de camping" loading="lazy" />
+                <figcaption>Area de camping</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="../assets/images/gallery-3.jpg" alt="Vista da praia" loading="lazy" />
+                <figcaption>Vista da praia</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="../assets/images/gallery-4.jpg" alt="Banheiro externo" loading="lazy" />
+                <figcaption>Banheiro externo</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="../assets/images/gallery-5.jpg" alt="Cafe da manha" loading="lazy" />
+                <figcaption>Cafe da manha</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="../assets/images/gallery-6.jpg" alt="Quarto com vista" loading="lazy" />
+                <figcaption>Quarto com vista</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Videos -->
+      <section id="videos" class="section" aria-labelledby="videos-titulo">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="videos-titulo">Videos</h2>
+            <p>Conheca um pouco da experiencia no local.</p>
+          </header>
+
+          <div class="video-grid">
+            <article class="card">
+              <h3>Conheca o Refugio</h3>
+              <iframe
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Video sobre o Refugio Castelhanos"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </article>
+            <article class="card">
+              <h3>Dia na Praia de Castelhanos</h3>
+              <iframe
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Video sobre um dia na praia"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Disponibilidade -->
+      <section id="disponibilidade" class="section section-alt" aria-labelledby="disp-titulo">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="disp-titulo">Disponibilidade</h2>
+            <p>Opcoes de hospedagem e status atual.</p>
+          </header>
+
+          <div class="card-grid card-grid-3">
+            <article class="card">
+              <h3>Casa de Temporada</h3>
+              <p><strong>Preco:</strong> R$ 800 / diaria</p>
+              <p><strong>Capacidade:</strong> ate 8 pessoas</p>
+              <p class="alerta-vagas">Apenas 1 vaga restante.</p>
+              <ul class="feature-list">
+                <li>4 quartos</li>
+                <li>2 banheiros</li>
+                <li>Cozinha completa</li>
+                <li>Vista para o mar</li>
+              </ul>
+              <p class="status disponivel">Disponivel</p>
+              <a class="btn btn-primary" href="https://wa.me/5512992090876?text=Ola!%20Gostaria%20de%20reservar%20a%20Casa%20de%20Temporada." target="_blank" rel="noopener noreferrer">Reservar</a>
+            </article>
+
+            <article class="card">
+              <h3>Camping Premium</h3>
+              <p><strong>Preco:</strong> R$ 120 / pessoa / noite</p>
+              <p><strong>Capacidade:</strong> ate 4 pessoas</p>
+              <p class="alerta-vagas">Apenas 3 vagas restantes.</p>
+              <ul class="feature-list">
+                <li>Banheiro compartilhado</li>
+                <li>Area de fogueira</li>
+                <li>Cafe da manha incluso</li>
+                <li>Acesso rapido a praia</li>
+              </ul>
+              <p class="status disponivel">Disponivel</p>
+              <a class="btn btn-primary" href="https://wa.me/5512992090876?text=Ola!%20Gostaria%20de%20reservar%20o%20Camping%20Premium." target="_blank" rel="noopener noreferrer">Reservar</a>
+            </article>
+
+            <article class="card">
+              <h3>Camping Basico</h3>
+              <p><strong>Preco:</strong> R$ 80 / pessoa / noite</p>
+              <p><strong>Capacidade:</strong> ate 6 pessoas</p>
+              <ul class="feature-list">
+                <li>Area demarcada</li>
+                <li>Banheiro compartilhado</li>
+                <li>Estacionamento</li>
+              </ul>
+              <p class="status indisponivel">Indisponivel</p>
+              <button class="btn btn-disabled" type="button" disabled>Esgotado</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Agendamento -->
+      <section id="agendar" class="section" aria-labelledby="agendar-titulo">
+        <div class="container two-column">
+          <article>
+            <h2 id="agendar-titulo">Agendar reserva</h2>
+            <p>
+              Preencha o formulario. Ao enviar, abrimos o WhatsApp com a
+              mensagem pronta para voce confirmar com a equipe.
+            </p>
+            <a class="btn btn-primary" href="https://wa.me/5512992090876" target="_blank" rel="noopener noreferrer">
+              Falar direto no WhatsApp
+            </a>
+          </article>
+
+          <article class="card">
+            <h3>Formulario simples</h3>
+            <form id="form-reserva" class="booking-form">
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" type="text" required />
+
+              <label for="checkin">dia de ida</label>
+              <input id="checkin" name="checkin" type="date" required />
+
+              <label for="checkout">dia de volta</label>
+              <input id="checkout" name="checkout" type="date" required />
+
+              <label for="pessoas">Pessoas</label>
+              <input id="pessoas" name="pessoas" type="number" min="1" max="20" required />
+
+              <button class="btn btn-primary" type="submit">Enviar no WhatsApp</button>
+            </form>
+          </article>
+        </div>
+      </section>
+
+      <!-- Localizacao -->
+      <section id="localizacao" class="section section-alt" aria-labelledby="loc-titulo">
+        <div class="container two-column">
+          <article>
+            <h2 id="loc-titulo">Localizacao e acesso</h2>
+            <p>
+              Praia de Castelhanos, Ilhabela - SP. O acesso pode ser feito por
+              estrada de terra ou por barco.
+            </p>
+            <ul class="feature-list">
+              <li><strong>Endereco:</strong> Praia de Castelhanos, Ilhabela - SP</li>
+              <li><strong>Carro:</strong> cerca de 1h30 do centro de Ilhabela</li>
+              <li><strong>Barco:</strong> cerca de 40 minutos</li>
+              <li><strong>Suporte:</strong> orientacao por WhatsApp</li>
+            </ul>
+          </article>
+
+          <article class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps?q=Praia%20de%20Castelhanos%20Ilhabela&output=embed"
+              title="Mapa da Praia de Castelhanos"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodape -->
+    <footer class="site-footer">
+      <div class="container footer-wrapper">
+        <section>
+          <h2>Refugio Castelhanos</h2>
+          <p>Camping e casa de temporada em Ilhabela.</p>
+        </section>
+
+        <nav aria-label="Links rapidos">
+          <h3>Links rapidos</h3>
+          <ul class="footer-list">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#disponibilidade">Disponibilidade</a></li>
+            <li><a href="#agendar">Agendar</a></li>
+          </ul>
+        </nav>
+
+        <section>
+          <h3>Contato</h3>
+          <address>
+            <p><strong>WhatsApp:</strong> +55 (12) 992090876</p>
+            <p><strong>Email:</strong> contato@refugiocastelhanos.com.br</p>
+            <p><strong>Endereco:</strong> Praia de Castelhanos, Ilhabela - SP</p>
+          </address>
+        </section>
+
+        <section>
+          <h3>Redes sociais</h3>
+          <ul class="footer-list">
+            <li><a href="https://instagram.com/refugiocastelhanos" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://facebook.com/refugiocastelhanos" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://wa.me/5512992090876" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          </ul>
+        </section>
+
+        <p class="copyright">&copy; <span id="ano-atual"></span> Refugio Castelhanos</p>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
