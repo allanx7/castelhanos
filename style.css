@@ -214,15 +214,6 @@ a {
   color: var(--color-muted);
 }
 
-.alerta-vagas {
-  margin: 0.75rem 0;
-  padding: 0.5rem 0.75rem;
-  border-radius: 8px;
-  background-color: #dcfce7;
-  color: #14532d;
-  font-weight: 700;
-}
-
 .btn {
   display: inline-flex;
   align-items: center;
