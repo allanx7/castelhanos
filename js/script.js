@@ -1,6 +1,6 @@
-﻿// Script simples para duas funcoes:
+﻿// Script simples para duas funções:
 // 1) Abrir/fechar menu no mobile
-// 2) Enviar formulario para o WhatsApp com mensagem pronta
+// 2) Enviar formulário para o WhatsApp com mensagem pronta
 
 (function () {
   const menuButton = document.getElementById("menu-button");
@@ -45,7 +45,7 @@
       !(checkoutInput instanceof HTMLInputElement) ||
       !(pessoasInput instanceof HTMLInputElement)
     ) {
-      alert("Nao foi possivel ler os campos do formulario.");
+      alert("Não foi possível ler os campos do formulário.");
       return;
     }
 
@@ -54,7 +54,7 @@
     const checkout = checkoutInput.value;
     const pessoas = pessoasInput.value;
 
-    // Validacao simples para evitar data de saida menor que entrada
+    // Validação simples para evitar data de saída menor que entrada
     if (checkin && checkout && checkout < checkin) {
       alert("A data de volta precisa ser igual ou maior que a data de ida.");
       return;
@@ -66,7 +66,7 @@
     }
 
     const mensagem = [
-      "Ola! Quero fazer uma reserva no Refugio Castelhanos.",
+      "Olá! Quero fazer uma reserva no Refúgio Castelhanos.",
       "",
       "Nome: " + nome,
       "Dia de ida: " + checkin,

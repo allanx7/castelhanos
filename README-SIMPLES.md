@@ -1,42 +1,7 @@
-﻿# Estrutura simples do projeto
+﻿esse e o meu 2 site real para funcionamento.
+esse site tem intençoes de agendar hora data mes e ano e quantidade de pessoas. informaçoes da casa video em 360 se a pessoa quiser gravar.
 
-Esta versao foi organizada para estudo e manutencao facil.
+so nao sei mexer em javascript ainda. mais pedi pra ia mexer nessa parte. vamos por etapá ainda vou aprender a mexer nesse treco, o sistema de agendamento deveria ser em tempo real para a pessoa saber se tem vaga ou nao.
 
-## Pastas principais (versao atual)
-
-- `html/index.html` -> Estrutura da pagina (HTML semantico)
-- `css/style.css` -> Estilos da pagina (CSS unico e explicado)
-- `js/script.js` -> Interacoes simples (menu mobile e formulario)
-- `assets/images/` -> Fotos usadas no site
-- `assets/` -> Icones do site (favicon e apple icon)
-
-## Posso apagar `antigo-next`?
-
-Sim, pode apagar sem quebrar a versao simples.
-
-Motivo:
-- O site atual usa **apenas** `html/`, `css/`, `js/` e `assets/`.
-- Nada no HTML/CSS/JS aponta para `antigo-next/`.
-
-## Como ver em tempo real
-
-Opcao 1 (mais simples):
-1. Abra `html/index.html` no navegador.
-2. Salve alteracoes que o navegador atualiza (dependendo da extensao/editor).
-
-Opcao 2 (Live Server no VS Code):
-1. Clique com botao direito em `html/index.html`.
-2. Use `Open with Live Server`.
-
-## O que foi trazido do projeto antigo
-
-- Galeria com todas as fotos principais.
-- Secoes: sobre, videos, disponibilidade, agendamento e localizacao.
-- Links de contato e redes sociais no rodape.
-- Mensagem pronta no WhatsApp para reservas.
-
-## Onde editar mais rapido
-
-- Texto: `html/index.html`
-- Cores e espacamentos: `css/style.css`
-- Regras do formulario/menu: `js/script.js`
+mais vou melhorar esse site futuramente. por enquanto e 
+aumentar o meu conhecimento. pra dps conseguir uma vaga internacional. e ficar meio susa!
