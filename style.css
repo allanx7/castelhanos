@@ -158,15 +158,6 @@ a {
   gap: 1rem;
 }
 
-#sobre-titulo {
-  background-color: #166534;
-  color: #cbd5e1;
-  box-shadow:  -4px -1px 16px -4px rgba(0, 0, 0, 0.568);
-  border-radius: 24px 24px 24px 24px;
-  padding-left: 7px;
-  margin-right: 77%;
-  margin-left: 2px;
-}
 
 .hero h1 {
   margin: 0;
