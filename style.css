@@ -1,14 +1,4 @@
-﻿/*
-  CSS simples e organizado para iniciantes.
-  Ordem do arquivo:
-  1) Reset basico
-  2) Variaveis
-  3) Layout global
-  4) Componentes
-  5) Responsividade
-*/
 
-/* 1) Reset basico */
 * {
   box-sizing: border-box;
 }
