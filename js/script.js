@@ -1,6 +1,4 @@
-﻿// Script simples para duas funções:
-// 1) Abrir/fechar menu no mobile
-// 2) Enviar formulário para o WhatsApp com mensagem pronta
+﻿
 
 (function () {
   const menuButton = document.getElementById("menu-button");
