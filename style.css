@@ -309,9 +309,13 @@ article.card1 {
   border-radius: 8px;
 }
 
-.card1 {
-  margin-left: 10px;
+.estilo {
   margin-right: 10px;
+  margin-left: 10px;
+  background-color: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 1rem;
 
 }
 
@@ -416,14 +420,6 @@ article.card1 {
 }
 
 /* 5) Responsividade */
-
-@media screen and (max-whidth: 2050px) (min-whidth: 898px){
-  .card1 {
-    margin-left: 80%;
-  
-  }
-}
-
 
 @media (max-widhth: 786px)  (min-width: 1024px) {
   .menu-button {
