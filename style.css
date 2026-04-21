@@ -195,7 +195,15 @@ a {
 }
 
 .card-grid-4 {
-  grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+}
+
+
+article.card1 {
+   background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem;
 }
 
 .card {
@@ -311,6 +319,45 @@ a {
   border-radius: 8px;
 }
 
+.card1 {
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.video-tag {
+  display: inline-flex;
+  max-width: 100%;
+  margin: 0 0 0.75rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background-color: #dbeafe;
+  color: #1e3a8a;
+  font-size: clamp(0.9rem, 2.2vw, 1.05rem);
+  font-weight: 700;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.video-creditos {
+  font-variant: small-caps;
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.video-creditos a {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.video-creditos a:hover {
+  color: var(--color-primary);
+}
+
+
+
 /* Formulario */
 .two-column {
   display: grid;
@@ -379,7 +426,16 @@ a {
 }
 
 /* 5) Responsividade */
-@media (min-width: 768px) {
+
+@media screen and (max-whidth: 2050px) (min-whidth: 898px){
+  .card1 {
+    margin-left: 80%;
+  
+  }
+}
+
+
+@media (max-widhth: 786px)  (min-width: 1024px) {
   .menu-button {
     display: none;
   }
@@ -417,3 +473,4 @@ a {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+
