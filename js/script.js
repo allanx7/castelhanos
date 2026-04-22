@@ -64,7 +64,7 @@
     }
 
     const mensagem = [
-      "Olá! Quero fazer uma reserva no Refúgio Castelhanos.",
+      "Olá! Quero fazer uma reserva no  Refúgio Castelhanos.",
       "",
       "Nome: " + nome,
       "Dia de ida: " + checkin,
