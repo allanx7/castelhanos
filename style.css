@@ -137,6 +137,7 @@ a {
   background:
     linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url("assets/images/Mirante_do_Coração_-_Praia_de_Castelhanos.jpg") center / cover no-repeat;
+background-image:fixed;
   color: var(--color-white);
 }
 
